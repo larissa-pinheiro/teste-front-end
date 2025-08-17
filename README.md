@@ -69,8 +69,8 @@ O objetivo foi criar uma página em **React + TypeScript**, consumindo dados de 
 
 ### 1. Clonar repositório
 ```bash
-git clone https://github.com/seu-usuario/econverse-teste.git
-cd econverse-teste
+git clone https://github.com/larissa-pinheiro/teste-front-end.git
+cd teste-front-end
 ```
 
 ### 2. Instalar dependências
@@ -105,5 +105,5 @@ yarn preview
 
 ## 📧 Contato
 
-Desenvolvido por **[Seu Nome]**  
+Desenvolvido por Larissa Pinheiro  
 🔗 LinkedIn: [Larissa Pinheiro](https://www.linkedin.com/in/larissa-mpinheiro/)  
