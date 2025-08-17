@@ -1,31 +1,109 @@
-# Teste Econverse: Vaga Desenvolvedor Front-End
+# 🛒 Teste Front-End Jr  
+<div align="center">
 
-### Vem ser #Econverse!
+  <!-- React -->
+  <img src="https://img.shields.io/badge/React-Componentes_Intuitivos-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React Badge" />
 
-Segue abaixo as instruções para a execução do teste.
+  <!-- TypeScript -->
+  <img src="https://img.shields.io/badge/TypeScript-Tipos_Fortes-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge" />
 
-## Instruções
-- Faça um fork desse projeto para a sua conta pessoal do GitHub.
-- Desenvolva a página conforme as **Especificações Técnicas** 
-- Crie um README com as instruções para compilar, testar e rodar o projeto.
-- O link do repositório deverá ser enviado para o e-mail ana.nascimento@econverse.com.br, joao.victor@econverse.com.br e eduardo.rodrigues@econverse.com.br com o título **Teste Vaga FrontEnd Jr**
+  <!-- Vite -->
+  <img src="https://img.shields.io/badge/Vite-Dev_Rápido-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite Badge" />
 
-## Especificações Técnicas
-- Desenvolver a pagina em React e TypeScript conforme o [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1). Para conseguir pegar os elementos do Figma, basta copiar o layout para sua conta que terá acesso de edição.
-- Montar a [vitrine](https://app.econverse.com.br/teste-front-end/junior/tecnologia/layout/vitrine-produtos.png) de produtos consumindo as informações dos produtos em json atraves desse [Link](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json).
-- Desenvolver a interação ao clicar em um produto conforme layout. A interação consiste em abrir um modal com as principais informações do produto presente no arquivo [JSON](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json) conforme o produto que clicar.
-- Utilizar Pré-processador Sass, Less ou Stylus.
-- Respeitar o Layout pixel a pixel, tamanho das fontes, cores e botões.
-- Não Utilizar bibliotecas UI como Bootstrap, Foundation, ou afins.
+  <!-- Sass -->
+  <img src="https://img.shields.io/badge/Sass-Estilo_Escalável-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass Badge" />
 
-## Pontos Extras
-- Utilizar Boas práticas de SEO
-- Uso de HTML semântico
+  <!-- Axios -->
+  <img src="https://img.shields.io/badge/Axios-Requisições_Fáceis-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios Badge" />
 
-## O que avaliaremos em seu teste
-- Organização do projeto
-- Lógica do código
-- Componentização
-- Alcance dos objetivos propostos
+  <!-- ESLint + Prettier -->
+  <img src="https://img.shields.io/badge/Código-Limpo-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint Badge" />
 
-**Boa sorte! ;)**
+</div>
+
+
+Este projeto foi desenvolvido como parte do processo seletivo para a vaga de **Desenvolvedor Front-End Jr**.  
+O objetivo foi criar uma página em **React + TypeScript**, consumindo dados de uma API em JSON e exibindo uma vitrine de produtos conforme layout fornecido no Figma.  
+
+## 📌 Especificações Atendidas
+
+- [x] Desenvolvimento em **React** com **TypeScript**  
+- [x] Consumo de informações dos produtos via JSON  
+- [x] Vitrine de produtos responsiva  
+- [x] Modal de detalhes ao clicar em um produto  
+- [x] Estilização com **Sass**  
+- [x] Respeito ao layout pixel-perfect (cores, fontes, botões, espaçamentos)  
+- [x] Uso de **HTML semântico** e boas práticas de **SEO**  
+- [x] Projeto organizado e componentizado  
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React** + **TypeScript**
+- **Vite** (para build rápido e dev server)  
+- **Sass** (pré-processador CSS)  
+- **Axios** (requisições HTTP ao JSON de produtos)  
+- **ESLint + Prettier** (padronização de código)  
+
+## 📂 Estrutura do Projeto
+
+```bash
+├── public/               # Arquivos estáticos
+├── src/
+│   ├── assets/           # Imagens, ícones, fontes
+│   ├── components/       # Componentes reutilizáveis
+│   │   ├── ProductCard/  # Card de produto
+│   │   ├── Modal/        # Modal de detalhes do produto
+│   ├── pages/            # Páginas principais
+│   ├── services/         # Consumo da API (JSON)
+│   ├── styles/           # Estilos globais (Sass)
+│   ├── types/            # Tipagens TypeScript
+│   ├── App.tsx           # Componente raiz
+│   └── main.tsx          # Entrada da aplicação
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+```  
+
+## ▶️ Como rodar o projeto
+
+### 1. Clonar repositório
+```bash
+git clone https://github.com/seu-usuario/econverse-teste.git
+cd econverse-teste
+```
+
+### 2. Instalar dependências
+```bash
+yarn
+```
+
+### 3. Rodar em desenvolvimento
+```bash
+yarn dev
+```
+
+Aplicação disponível em:  
+👉 `http://localhost:5173`
+
+### 4. Gerar build de produção
+```bash
+yarn build
+```
+
+### 5. Visualizar build local
+```bash
+yarn preview
+```
+
+## 🚀 Melhorias Futuras
+
+- Paginação ou lazy loading dos produtos  
+- Testes unitários 
+- Integração com API real  
+- Melhorias de acessibilidade (ARIA roles, navegação via teclado)  
+
+## 📧 Contato
+
+Desenvolvido por **[Seu Nome]**  
+🔗 LinkedIn: [Larissa Pinheiro](https://www.linkedin.com/in/larissa-mpinheiro/)  
